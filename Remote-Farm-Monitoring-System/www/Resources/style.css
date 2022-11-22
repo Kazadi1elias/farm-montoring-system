@@ -1,0 +1,93 @@
+    .grids {
+        display: grid;
+	    grid-template-rows: 1fr 1fr 18fr 1fr;
+    }
+    h1 {
+        text-align: center;
+        font-size: xx-large;
+    }
+    .footer {
+        background-color: rgb(34, 34, 34);
+        color:white;
+        text-align: center;
+    }
+    .main-header {
+        grid-column-start: 2;
+        grid-column-end: 5;
+        grid-row: 1/3;
+        background: rgb(35, 90, 35);
+    }
+    .side-links {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row: 3/3;
+        background: gray;
+    }
+
+    .content {
+        grid-column: 2/5 ;
+        grid-row: 3/4;
+        padding: 50px;
+        background: url(farm1.jpg);
+        background-position: center;
+        text-align: center;
+    }
+    .content h1 {
+        text-align: center;
+        font-size: xx-large;
+    }
+    .content a:active {
+        color: white;
+        text-decoration-line: none;
+    }
+    .content a:link{
+        color: white;
+        text-decoration-line: none;
+    }
+
+    .content a:hover{
+
+        color: white;
+        text-decoration-line: none;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-rows: 1fr 1fr 18fr 1fr;
+    }
+    
+    .logo {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row: 1/3;
+        background: rgb(35, 90, 35);
+    }
+    
+    .footer {
+        grid-column: 1/5;
+    }
+    
+    a:link {
+        color: black;
+        text-decoration-line: none;
+    }
+    a:hover {
+        color: white;
+        text-decoration-line: none;
+    }
+    a:active {
+        color: white;
+        text-decoration-line: none;
+    }
+
+    .register-container {
+        background-color: rgb(35, 90, 35);;
+        width: fit-content;
+        height: inherit;
+        padding: 10px;
+        margin: auto;
+    }
+    .content box{
+        background-color: rgb(35, 90, 35);
+    }
+   
